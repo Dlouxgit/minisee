@@ -1,0 +1,18 @@
+[package]
+name = "minisee"
+version = "0.1.0"
+edition = "2021"
+keywords = ["degit", "rust", "gitlab", "github", "minisee", "see"]
+description = "Quickly generate templates based on github repo or gitlab repo."
+license = "MIT"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+inquire = "0.6.2"
+regex = "1.1.7"
+reqwest = "0.9.18"
+tar = "0.4.26"
+flate2 = "1.0.9"
+indicatif = "0.11.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

@@ -1,0 +1,20 @@
+{
+  "name": "minisee",
+  "version": "1.0.0",
+  "description": "Quickly generate templates based on github repo or gitlab repo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "minisee2": "./target/debug/minisee"
+  },
+  "keywords": ["degit", "rust", "gitlab", "github", "minisee", "see"],
+  "author": "dlouxgit",
+  "license": "MIT",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^21.0.3"
+  }
+}
